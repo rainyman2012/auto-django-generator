@@ -2,14 +2,7 @@
 
 REQUIREMENTS="""
 Django\n
-django-allauth\n
-django-cors-headers\n
-django-modeltranslation\n
-django-rest-auth\n
-ipython\n
-django-storages\n
-djangorestframework\n
-sqlparse\n
+daphne\n
 """
 PROJECT_NAME=$1
 if [ -z $PROJECT_NAME ]
